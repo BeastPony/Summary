@@ -1,0 +1,289 @@
+:root {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: Gilroy, sans-serif;
+}
+
+/***********Header***********/
+
+.header {
+  width: 1445px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  width: 943.61px;
+  height: 768px;
+  margin: 0 auto;
+}
+
+.header__nav {
+  border-bottom: 1px solid #828282;
+}
+
+.header__nav ul {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+
+.header__nav ul a {
+  text-decoration: none;
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  transition: ease 0.7s;
+}
+
+.header__nav ul a:hover {
+  color: #070707;
+}
+
+.header__info {
+  margin-top: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__info h2 {
+  width: 123px;
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+}
+
+.header__info p {
+  padding-top: 70px;
+  width: 155px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.header__info .lang {
+  writing-mode: tb;
+  transform: rotate(180deg);
+}
+
+.header__info .lang a {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  text-decoration: none;
+  transition: ease 0.7s;
+}
+
+.header__info .lang a:hover {
+  color: #000000;
+}
+
+.header__photo {
+  margin-top: 50px;
+}
+
+.mobile-photo {
+  display: none;
+}
+
+/***********SectionInfoMe***********/
+
+.infome__wrapper {
+  margin: 0 auto;
+  width: 1445px;
+  height: 506px;
+  text-align: center;
+  background: #f6f6f6;
+}
+
+.infome__block {
+  margin: 0 auto;
+  width: 943.61px;
+}
+
+.infome__block h2 {
+  padding-top: 120px;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+
+.infome {
+  margin-top: 17px;
+  display: inline-block;
+  width: 450px;
+  height: 218px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.infome p + p {
+  padding: 35px 20px 0;
+}
+
+/***********SectionSkills***********/
+
+.skills__wrapper {
+  margin: 0 auto;
+  width: 1440px;
+  height: 610px;
+  text-align: center;
+}
+
+.skills__block {
+  margin: 0 auto;
+  width: 943px;
+}
+
+.skills__block h2 {
+  padding: 91px 0 69px;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+
+.skills__programm ul {
+  margin-top: 83px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.skills__programm p {
+  padding: 24px 0 40px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+
+.rating-mini {
+  display: inline-block;
+  font-size: 0;
+}
+.rating-mini span {
+  padding: 0;
+  font-size: 20px;
+  line-height: 1;
+  color: lightgrey;
+}
+.rating-mini > span:before {
+  content: "★";
+}
+.rating-mini > span.active {
+  color: #070707;
+}
+
+/***********SectionPortfolio***********/
+
+.portfolio__wrapper {
+  margin: 0 auto;
+  width: 1440px;
+  height: 2253px;
+  text-align: center;
+  background: #f6f6f6;
+}
+
+.portfolio__block {
+  margin: 0 auto;
+  width: 943px;
+}
+
+.portfolio__block h2 {
+  display: inline-block;
+  padding-top: 112px;
+}
+
+.portfolio__block img {
+  padding: 90px 0 44px;
+}
+
+.portfolio__block a {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+/***********Footer***********/
+
+.footer {
+  margin: 0 auto;
+  width: 1440px;
+  height: 622px;
+  text-align: center;
+}
+
+.footer__wrapper {
+  margin: 0 auto;
+  width: 943px;
+}
+
+.footer__wrapper h2 {
+  padding: 114px 0 20px;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+
+.footer__wrapper p {
+  padding-bottom: 30px;
+  margin: 0 auto;
+  display: block;
+  width: 275px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+.footer__wrapper .btn {
+  width: 180px;
+  height: 42px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  border-radius: 20px;
+  border: none;
+  background: #070707;
+  cursor: pointer;
+  transition: ease 0.7s;
+}
+
+.footer__wrapper .btn:hover {
+  color: #070707;
+  background: #ffffff;
+  border: 1px solid black;
+}
+
+.footer__wrapper ul {
+  padding: 85px 0 45px;
+  display: flex;
+  justify-content: center;
+  gap: 61px;
+  list-style: none;
+}
+
+.like p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
